@@ -1,6 +1,6 @@
-var a = 3;
-var b = {
-  a: 9,
-  b: ++a,
-};
-console.log(a + b.a + ++b.b);
+const nums = [1,2,3,4,5,6,7];
+nums.forEach((n) => {
+    if(n%2 === 0)
+      break;
+    console.log(n);
+});
