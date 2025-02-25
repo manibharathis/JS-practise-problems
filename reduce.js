@@ -14,3 +14,5 @@ const output = arr.reduce((acc,curr)=>{
     return acc
 },[])
 console.log(output)
+const output2 = arr.filter(e=>e.age<29).map(e=>e.name)
+console.log(output2)
